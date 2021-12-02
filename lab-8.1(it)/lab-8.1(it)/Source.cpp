@@ -21,7 +21,7 @@ int Count(char* str)
 char* Change(char* str)
 {
 	size_t len = strlen(str);
-	char* tmp = new char[len * 4 / 3 + 1];
+	char* tmp = new char[len * 2 + 1];
 	char* t = tmp;
 	tmp[0] = '\0';
 	size_t i = 0;
